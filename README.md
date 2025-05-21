@@ -77,13 +77,13 @@ Sistemul hardware este format dintr-un `microfon MAX4466` care captează sunetul
 
 Programul funcționează pe o mașină de stări (`State currentState = BEGIN/RECORD`), în care logica principală este împărțită în două stări esențiale: **BEGIN** și **RECORD**.
 
-### `Starea **BEGIN** – Așteptare`
+### `Starea BEGIN – Așteptare`
 
 Această stare este activă imediat după pornirea sistemului. În acest moment, dispozitivul se află în repaus și așteaptă interacțiunea utilizatorului. LED-ul roșu este aprins pentru a semnala starea pasivă, iar LED-ul verde este stins. Speaker-ul este dezactivat. Pe ecranul OLED este afișat un mesaj care îi spune utilizatorului cum să înceapă înregistrarea: *Apasă B1 pentru înregistrare*.
 
 La apăsarea butonului 1, sistemul inițiază tranziția către starea de înregistrare (**RECORD**). În acest moment sunt resetate variabilele relevante: `beatCount` este setat la 0, iar `beatDetected` este resetat pentru a permite o detecție corectă a următoarelor bătăi. Se pornește cronometrul intern (`recordStartTime = time_millies()`), iar ecranul este curățat pentru a începe afișarea semnalului cardiac.
 
-### `Starea **RECORD** – Înregistrare activă`
+### `Starea RECORD – Înregistrare activă`
 
 În această stare, dispozitivul începe efectiv procesul de monitorizare a bătăilor inimii. LED-ul verde este stins, în timp ce LED-ul roșu clipește la fiecare 500ms, indicând activitatea înregistrării.
 
