@@ -188,6 +188,14 @@ Conține două array-uri `PROGMEM` cu bitmap-uri pentru animația inimii:
 
 Acestea sunt desenate alternativ pe ecran în `result_screen()` pentru a simula o inimă care pulsează.
 
+## *Concluzie*
+
+Proiectul Stetoscop Digital pune în evidență un mod practic și eficient de a construi un sistem embedded care răspunde la interacțiuni reale. Utilizarea resurselor hardware precum ADC, GPIO, timer și interfața I2C pentru display-ul OLED a permis construirea unei aplicații care combină interacțiunea fizică (butoane, LED-uri, speaker) cu o interfață grafică intuitivă. Această combinație de componente oferă un rezultat vizual și funcțional.
+
+Codul este clar structurat, iar funcționalitatea este împărțită logic, ceea ce face ca proiectul să fie ușor de înțeles și de testat.
+
+Rezultatele obținute în urma testării arată că proiectul simulează detectarea bătăilor inimii și le contorizează în timp real. Informațiile afișate pe ecranul OLED, mai exact BPM-ul, durata înregistrării și numărul de bătăi, sunt clare și ușor de înțeles, iar animația inimii contribuie la o experiență interactivă și intuitivă pentru utilizator. Aceste elemente fac ca proiectul să fie nu doar funcțional, ci și accesibil și prietenos pentru utilizatori.
+
 
 
 
