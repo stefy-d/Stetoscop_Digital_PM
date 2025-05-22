@@ -193,10 +193,9 @@ Acestea sunt desenate alternativ pe ecran în `result_screen()` pentru a simula 
 
 Rezultatele obținute în urma testării arată că proiectul simulează detectarea bătăilor inimii și le contorizează în timp real. Informațiile afișate pe ecranul OLED, mai exact BPM-ul, durata înregistrării și numărul de bătăi, sunt clare și ușor de înțeles, iar animația inimii contribuie la o experiență interactivă și intuitivă pentru utilizator. Aceste elemente fac ca proiectul să fie nu doar funcțional, ci și accesibil și prietenos pentru utilizatori.
 
-![poza1](poza1.jpg)
-![poza2](poza2.jpg)
-![poza3](poza3.jpg)
-![poza4](poza4.jpg)
+| ![poza1](poza1.jpg) | ![poza2](poza2.jpg) |
+| --- | -- |
+| ![poza3](poza3.jpg) | ![poza4](poza4.jpg) |
 ![poza5](poza5.jpg)
 <br>
 
